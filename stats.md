@@ -308,6 +308,7 @@ Selection bias is the term used to describe the situation where an analysis has 
 
 
 ## A/B testing
+A/B testing, at its most basic, is a way to compare two versions of something to figure out which performs better.
 It is a way of conducting an experiment where you compare a control group to the performance of one or more test groups.
 - Eg: Conversion rate of a web page: 
 	- Subjected to 3 treatments(Adding layout, change in headings, Changing the color/text)
