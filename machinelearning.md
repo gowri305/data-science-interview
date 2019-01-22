@@ -39,6 +39,8 @@ more on this https://www.youtube.com/watch?v=aPNrhR0dFi8
 The bootstrap method is a resampling technique used to estimate statistics on a population by sampling a dataset with replacement.
 It can be used to estimate summary statistics such as the mean or standard deviation.
 
+Additional Reference: https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/
+
 
 ### Define Bias and Variance.
 
