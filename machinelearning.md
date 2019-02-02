@@ -69,6 +69,24 @@ Steps to reduce overfitting:
 
 ## Linear Regression
 
+### What if you have set of data and do regression, what if you  duplicate all the data and do regression on the new data set ??
+
+The mean and variance of the sample would not change therefore the beta estimation would be the same. however, since the sample size is doubled this will result in the lower p-value for the beta (from central limit theorem, the standard deviation of the sample mean = standard deviation of population / sqrt(n). This tells us that by simply doubling/duplicating the data, we could trick the regression model to have smaller confidence interval.
+
+Other Source:
+https://web.stanford.edu/~mrosenfe/soc_meth_proj3/soc_180B_regression_whatchanges.htm
+https://ojs.ub.uni-konstanz.de/srm/article/viewFile/7149/6478
+
+### Why including some observations twice changes the coefficients of logistic regression? 
+https://stats.stackexchange.com/questions/133876/why-including-some-observations-twice-changes-the-coefficients-of-logistic-regre
+
+### Creteria for Variable Selection??
+https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/26/lecture-26.pdf
+https://www.ibm.com/support/knowledgecenter/en/SSLVMB_23.0.0/spss/base/linear_regression_methods.html
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969114/
+https://advstats.psychstat.org/book/mregression/selection.php
+
+
 ### Why is R2 horrible for determining the quality of a model and name at least two better metrics. 
 
 R-squared is a statistic that often accompanies regression output. It ranges in value from 0 to 1 and is usually interpreted as summarizing the percent of variation in the response that the regression model explains. So an R-squared of 0.65 might mean that the model explains about 65% of the variation in our dependent variable. 
