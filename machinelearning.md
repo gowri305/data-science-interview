@@ -171,6 +171,12 @@ If SSE is equal to 0, i,e the model perfectly fits the data, then SSE=0 , making
 - The log(odds), or log-odds ratio, is defined by ln[p/(1−p)] and expresses the natural logarithm of the ratio between the probability that an event will occur, p(Y=1), to the probability that it will not occur. 
 - The estimates from logistic regression characterize the relationship between the predictor and response variable on a log-odds scale. So taking the exponential of the log odds gives a good representation. Eg: We can then say that one unit increase in Age, the odds of having good credit increases by a factor of 1.01.
 
+Assumptions of GLM for Logistic Regression Model:
+1. GLM does not assume a linear relationship between dependent and independent variables. However, it assumes a linear relationship between link function and independent variables in logit model.
+2.The dependent variable need not to be normally distributed.
+3.It does not uses OLS (Ordinary Least Square) for parameter estimation. Instead, it uses maximum likelihood estimation (MLE).
+4.Errors need to be independent but not normally distributed.
+
 ### How would you evaluate a logistic regression model?
 
 Evaluation
