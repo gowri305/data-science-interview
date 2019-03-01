@@ -86,6 +86,9 @@ https://www.ibm.com/support/knowledgecenter/en/SSLVMB_23.0.0/spss/base/linear_re
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969114/
 https://advstats.psychstat.org/book/mregression/selection.php
 
+## Model selection Creteria:
+https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/21/lecture-21.pdf
+
 
 ### Why is R2 horrible for determining the quality of a model and name at least two better metrics. 
 
