@@ -125,7 +125,7 @@ Linear relationship: First, linear regression needs the relationship between the
 
 Multivariate normality: This assumption can best be checked with a histogram or a Q-Q-Plot.  Normality can be checked with a goodness of fit test, e.g., the Kolmogorov-Smirnov test.  When the data is not normally distributed a non-linear transformation (e.g., log-transformation) might fix this issue.
 
-No or little multicollinearity : Multicollinearity occurs when the independent variables are too highly correlated with each other. Multicollinearity may be tested with three central criteria:
+No or little multicollinearity : Multicollinearity occurs when the independent variables are too highly correlated with each other. Multicollinearity may be tested with three central criteria: ( The VIF is how much the variance of your regression coefficient is larger than it would otherwise have been if the variable had been completely uncorrelated with all the other variables in the model)
 
 	1) Correlation matrix – when computing the matrix of Pearson’s Bivariate Correlation among all independent variables the correlation coefficients need to be smaller than 1.
 
