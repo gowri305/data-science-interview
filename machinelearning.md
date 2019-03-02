@@ -414,6 +414,10 @@ Hierarchical clustering, as the name suggests is an algorithm that builds hierar
 - The results of hierarchical clustering can be shown using dendrogram.
 - Hierarchical clustering can’t handle big data well but K Means clustering can. This is because the time complexity of K Means is linear i.e. O(n) while that of hierarchical clustering is quadratic i.e. O(n2).
 
+## How is the value of K selected for K-means Clustering:
+One of the metrics that is commonly used to compare results across different values of K is the mean distance between data points and their cluster centroid. Since increasing the number of clusters will always reduce the distance to data points, increasing K will always decrease this metric, to the extreme of reaching zero when K is the same as the number of data points. Thus, this metric cannot be used as the sole target. Instead, mean distance to the centroid as a function of K is plotted and the "elbow point," where the rate of decrease sharply shifts, can be used to roughly determine K (see plot below).
+
+
 
 ### How is KNN different from k-means clustering?
 
