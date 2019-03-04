@@ -297,6 +297,8 @@ Mean centering does not affect the covariance matrix. However, scaling of variab
 
 Both LDA and PCA are linear transformation techniques: LDA is a supervised whereas PCA is unsupervised – PCA ignores class labels. In contrast to PCA, LDA attempts to find a feature subspace that maximizes class separability (note that LD 2 would be a very bad linear discriminant in the figure above). LDA makes assumptions about normally distributed classes and equal class covariances. 
 
+For PCA: https://www.robertoreif.com/blog/2018/1/9/pca
+
 ## Hyperparameters
 
 Model parameters are the properties of training data that will learn on its own during training by the classifier or other ML model. For example,Weights and Biases,Split points in Decision Tree
